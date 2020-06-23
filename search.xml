@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>机器学习</title>
+    <url>/2020/06/11/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>机器学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python爬虫</title>
+    <url>/2020/06/12/python%E7%88%AC%E8%99%AB/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>爬虫</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Requests库入门</title>
     <url>/2020/06/14/Requests%E5%BA%93%E5%85%A5%E9%97%A8/</url>
     <content><![CDATA[<h1 id="Python-Requests库"><a href="#Python-Requests库" class="headerlink" title="Python-Requests库"></a>Python-Requests库</h1><h2 id="Requests库安装"><a href="#Requests库安装" class="headerlink" title="Requests库安装"></a>Requests库安装</h2><p>首先打开win命令行窗口，输入</p>
@@ -66,25 +82,9 @@ print(&quot;爬取100次网页的时间为{:5f}s&quot;.format(dur))</code></pre>
       </tags>
   </entry>
   <entry>
-    <title>机器学习</title>
-    <url>/2020/06/11/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>机器学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>python爬虫</title>
-    <url>/2020/06/12/python%E7%88%AC%E8%99%AB/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>爬虫</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>hexo博客添加背景音乐</title>
     <url>/2020/06/16/hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90/</url>
-    <content><![CDATA[<h1 id="如何给博客加上音乐"><a href="#如何给博客加上音乐" class="headerlink" title="如何给博客加上音乐"></a>如何给博客加上音乐</h1><h2 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h2><h3 id="博主以身试法推荐一种超easy的方法，也可以用这种方法来下载全网音乐-付费的也可"><a href="#博主以身试法推荐一种超easy的方法，也可以用这种方法来下载全网音乐-付费的也可" class="headerlink" title="博主以身试法推荐一种超easy的方法，也可以用这种方法来下载全网音乐(付费的也可)"></a>博主以身试法推荐一种超easy的方法，也可以用这种方法来下载全网音乐(付费的也可)</h3><ol>
+    <content><![CDATA[<h1 id="如何给博客加上音乐"><a href="#如何给博客加上音乐" class="headerlink" title="如何给博客加上音乐"></a>如何给博客加上音乐</h1><h2 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h2><h3 id="博主以身试法推荐一种超easy的方法，也可以用这种方法来下载全网音乐"><a href="#博主以身试法推荐一种超easy的方法，也可以用这种方法来下载全网音乐" class="headerlink" title="博主以身试法推荐一种超easy的方法，也可以用这种方法来下载全网音乐"></a>博主以身试法推荐一种超easy的方法，也可以用这种方法来下载全网音乐</h3><ol>
 <li>打开网易云音乐，找到想添加的音乐后，右键点击选择复制链接</li>
 </ol>
 <figure class="highlight dns"><table><tr><td class="code"><pre><span class="line">https://music.<span class="number">163</span>.com/song?id=<span class="number">428591384</span>&amp;userid=<span class="number">627778085</span></span><br><span class="line">#像这样一个字段，首先是</span><br><span class="line">·音乐来源-网易云音乐，</span><br><span class="line">·类别-歌曲，</span><br><span class="line">·歌曲id-<span class="number">428591384</span>，</span><br><span class="line">·和你自己的用户id</span><br></pre></td></tr></table></figure>
@@ -99,7 +99,7 @@ print(&quot;爬取100次网页的时间为{:5f}s&quot;.format(dur))</code></pre>
 
 </li>
 </ol>
-<p>然后点击下载，就可以了，所以的付费音乐都是可以通过这种方式下载的。</p>
+<p>然后点击下载，就可以了，所以的音乐都是可以通过这种方式下载的。</p>
 <ol start="4">
 <li><p>如果你想要往博客中添加背景音乐，也只需要打开主题配置文件_config.yml</p>
 <figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">添加如下代码即可···</span><br><span class="line"><span class="comment"># 默认音乐（随机播放）</span></span><br><span class="line">mp3: </span><br><span class="line">    - http:<span class="regexp">//</span>link.hhtjim.com<span class="regexp">/163/</span><span class="number">428591384</span>.mp3</span><br></pre></td></tr></table></figure>
@@ -240,7 +240,7 @@ print(&quot;爬取100次网页的时间为{:5f}s&quot;.format(dur))</code></pre>
 <td align="left">播放器风格色彩设置</td>
 </tr>
 </tbody></table>
-]]></content>
+<h4 id="附-外链转换工具"><a href="#附-外链转换工具" class="headerlink" title="附:外链转换工具"></a>附:外链转换工具</h4><img src="http://i2.tiimg.com/721302/8d42ffd3d82cc61a.png" alt="Markdown" style="zoom:80%;">]]></content>
       <categories>
         <category>下载全网音乐(付费均可)</category>
       </categories>
