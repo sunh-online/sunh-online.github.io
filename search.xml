@@ -233,11 +233,11 @@ print(&quot;爬取100次网页的时间为{:5f}s&quot;.format(dur))</code></pre>
       </tags>
   </entry>
   <entry>
-    <title>python爬虫</title>
-    <url>/2020/06/12/python%E7%88%AC%E8%99%AB/</url>
+    <title>机器学习</title>
+    <url>/2020/06/11/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[]]></content>
       <tags>
-        <tag>爬虫</tag>
+        <tag>机器学习</tag>
       </tags>
   </entry>
   <entry>
@@ -314,11 +314,11 @@ print(&quot;爬取100次网页的时间为{:5f}s&quot;.format(dur))</code></pre>
       </tags>
   </entry>
   <entry>
-    <title>机器学习</title>
-    <url>/2020/06/11/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</url>
+    <title>python爬虫</title>
+    <url>/2020/06/12/python%E7%88%AC%E8%99%AB/</url>
     <content><![CDATA[]]></content>
       <tags>
-        <tag>机器学习</tag>
+        <tag>爬虫</tag>
       </tags>
   </entry>
 </search>
