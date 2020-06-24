@@ -1,87 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>机器学习</title>
-    <url>/2020/06/11/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>机器学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>python爬虫</title>
-    <url>/2020/06/12/python%E7%88%AC%E8%99%AB/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>爬虫</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Requests库入门</title>
-    <url>/2020/06/14/Requests%E5%BA%93%E5%85%A5%E9%97%A8/</url>
-    <content><![CDATA[<h1 id="Python-Requests库"><a href="#Python-Requests库" class="headerlink" title="Python-Requests库"></a>Python-Requests库</h1><h2 id="Requests库安装"><a href="#Requests库安装" class="headerlink" title="Requests库安装"></a>Requests库安装</h2><p>首先打开win命令行窗口，输入</p>
-<pre><code><figure class="highlight plain"><figcaption><span>install requests</span></figcaption><table><tr><td class="code"><pre><span class="line">pip install requests</span><br></pre></td></tr></table></figure></code></pre><p>对安装的ruquests进行测试，打开idea,输入</p>
-<figure class="highlight ruby"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;</span>&gt; import requests</span><br><span class="line"><span class="meta">&gt;&gt;</span>&gt; r = requests.get(<span class="string">"http://www.baidu.com"</span>)</span><br><span class="line"><span class="meta">&gt;&gt;</span>&gt; r.status_code</span><br></pre></td></tr></table></figure>
-
-<p>如果显示200，则表示连接成功，失败则重新进行上面的操作，或点击链接到官网下载<a href="http://www.python-requests.org" target="_blank" rel="noopener">This link</a> </p>
-<p>若显示200，继续输入</p>
-<figure class="highlight ruby"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;</span>&gt; r.encoding= <span class="string">'utf-8'</span><span class="comment">#改变网页编码</span></span><br><span class="line"><span class="meta">&gt;&gt;</span>&gt; r.text             <span class="comment">#打印内容</span></span><br></pre></td></tr></table></figure>
-
-<p>打印内容如下</p>
-<img src="http://i2.tiimg.com/721302/001e6e0a3ff2fafe.png" alt="Markdown" style="zoom: 33%;">
-
-<p>这就是我们从网页中爬取出来的代码，然后就可以从中得到我们想要的信息</p>
-<h3 id="附：Requests库的7个主要方法"><a href="#附：Requests库的7个主要方法" class="headerlink" title="附：Requests库的7个主要方法"></a>附：Requests库的7个主要方法</h3><p><img src="http://i2.tiimg.com/721302/91bb062aff25063e.png" alt="Markdown"></p>
-<h2 id="Requests库的主要方法"><a href="#Requests库的主要方法" class="headerlink" title="Requests库的主要方法"></a>Requests库的主要方法</h2><h3 id="get方法"><a href="#get方法" class="headerlink" title="get方法"></a>get方法</h3><p>(其实requests库的所有方法都可以归为get方法进行操作，而且这些方法都要在get到想爬取网页的基础上进行)</p>
-<p>调用方法</p>
-<figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">r = requests.<span class="builtin-name">get</span>(url，<span class="attribute">params</span>=None,**Kwargs)</span><br><span class="line">​```url：拟获取页面的url链接</span><br><span class="line">   params：url中的额外参数，字典或字节流格式，可选</span><br><span class="line">   **Kwargs：12个控制访问的参数,可选</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">使用方法：打开idea，输入</span><br></pre></td></tr></table></figure>
-<blockquote>
-<blockquote>
-<blockquote>
-<p>import requests<br>r = requests.get(“<a href="http://www.baidu.com&quot;" target="_blank" rel="noopener">http://www.baidu.com&quot;</a>)<br>r.status_code<br> #若显示200则表示连接成功<br>type(r)<br> &lt;class ‘requests.models.Response’&gt;<br>r.headers<br> #(返回get请求页面的头部信息){‘Cache-Control’: ‘private, no-cache, no-store, proxy-revalidate, no-transform’, ‘Connection’: ‘keep-alive’, ‘Content-Encoding’: ‘gzip’, ‘Content-Type’: ‘text/html’, ‘Date’: ‘Mon, 15 Jun 2020 08:23:48 GMT’, ‘Last-Modified’: ‘Mon, 23 Jan 2017 13:28:24 GMT’, ‘Pragma’: ‘no-cache’, ‘Server’: ‘bfe/1.0.8.18’, ‘Set-Cookie’: ‘BDORZ=27315; max-age=86400; domain=.baidu.com; path=/‘, ‘Transfer-Encoding’: ‘chunked’}</p>
-</blockquote>
-</blockquote>
-</blockquote>
-<figure class="highlight http"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="attribute">Response的属性</span></span><br><span class="line"><span class="attribute"></span></span><br><span class="line"><span class="attribute">![Markdown](http://i2.tiimg.com/721302/7ba19b27e376db3a.png)</span></span><br><span class="line"><span class="attribute"></span></span><br><span class="line"><span class="attribute"></span></span><br><span class="line"><span class="attribute"></span></span><br><span class="line"><span class="attribute">get方法一般使用步骤</span></span><br><span class="line"><span class="attribute"></span></span><br><span class="line"><span class="attribute">![Markdown](http://i2.tiimg.com/721302/437129653db994a5.png)</span></span><br><span class="line"><span class="attribute"></span></span><br><span class="line"><span class="attribute"></span></span><br><span class="line"><span class="attribute"></span></span><br><span class="line"><span class="attribute">如果在打印内容r.text的时候，发现都是乱码，该如何操作？</span></span><br></pre></td></tr></table></figure>
-<blockquote>
-<blockquote>
-<blockquote>
-<p>r.encoding<br> #返回该网页编码 ‘ISO-8859-1’<br>r.apparent_encoding<br> #’uft-8’<br>r.encoding = ‘uft-8’</p>
-</blockquote>
-</blockquote>
-</blockquote>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">这样就可以获取中文的字符，包括该网页(百度)的相关信息</span><br><span class="line"></span><br><span class="line">接下来分析一下Response的编码，如果r.encoding不能正确解码时，就采用r.apparent_encoding来进行解码操作，获取我们想要的信息.</span><br><span class="line"></span><br><span class="line">![<span class="string">Markdown</span>](<span class="link">http://i1.fuimg.com/721302/b71e6da6b12f7774.png</span>)</span><br><span class="line"></span><br><span class="line"><span class="section">##  理解Requests库的异常</span></span><br><span class="line"></span><br><span class="line">一共有6种常用的连接异常</span><br><span class="line"></span><br><span class="line">![<span class="string">Markdown</span>](<span class="link">http://i1.fuimg.com/721302/9415c2fbb8f76155.png</span>)</span><br><span class="line"></span><br><span class="line"><span class="section">##  爬取网页的通用代码框架</span></span><br></pre></td></tr></table></figure>
-<blockquote>
-<blockquote>
-<blockquote>
-<p>import requests<br>def getHTMLText(url):<br>       try:<br>           r = requests.get(url,timeout=30)<br>           r.raise_for_status()#如果状态不是200，引发HTTPError异常<br>           r.encoding = r.apparent_encoding<br>           return r.text<br>       except:<br>           return “产生异常”<br>if <em>name</em> == “<em>main</em>“:<br>       url = “<a href="http://www.baidu.com&quot;" target="_blank" rel="noopener">http://www.baidu.com&quot;</a><br>       print(getHTMLText(url))</p>
-</blockquote>
-</blockquote>
-</blockquote>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="section">###   HTTP协议Url格式</span></span><br><span class="line"></span><br><span class="line">![<span class="string">Markdown</span>](<span class="link">http://i2.tiimg.com/721302/17dcf547e367b301.png</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">HTTP URL的理解：</span><br><span class="line"></span><br><span class="line">URL是通过HTTP协议存取资源的Internet路径，一个URL对应一个数据资源。</span><br><span class="line"></span><br><span class="line"><span class="section">###  HTTP协议对资源的操作(即Requests库的6个主要函数所对应的功能)</span></span><br><span class="line"></span><br><span class="line">![<span class="string">Markdown</span>](<span class="link">http://i2.tiimg.com/721302/99ee6d5a565e0029.png</span>)</span><br><span class="line"></span><br><span class="line">如果我们想获取URL的资源可以使用 GET，HEAD方法，如果我们想对URL中的资源进行操作，更新，删除可以使用 PUT,POST,PATCH,DELECT.(例如在HTTP协议世界里，网络通道和服务器都是黑盒子，它能看到的只是URL链接)，</span><br><span class="line"></span><br><span class="line"><span class="section">###  小结</span></span><br><span class="line"></span><br><span class="line">1.requests库的7个常用方法</span><br><span class="line"></span><br><span class="line">2.爬取网页的通用代码框架</span><br><span class="line"></span><br><span class="line">3.异常处理</span><br><span class="line"></span><br><span class="line"><span class="section">###  小测试： “任意”找个url，测试一下成功爬取100次网页的时间</span></span><br></pre></td></tr></table></figure>
-<blockquote>
-<blockquote>
-<blockquote>
-<p>import requests<br>import time<br>def getHTMLText(url):<br>       try:<br>           r = requests.get(url, timeout=30)<br>           r.raise_for_status()<br>           r.encoding = r.apparent_ecoding<br>           return r.text<br>       except:<br>           return “产生异常”<br>if <strong>name</strong> == “<strong>main</strong>“:<br>       start = time.perf_counter()<br>       url = “<a href="https://www.sina.com&quot;" target="_blank" rel="noopener">https://www.sina.com&quot;</a></p>
-</blockquote>
-</blockquote>
-</blockquote>
-<pre><code>for i in range(100):
-    textstr = getHTMLText(url)
-dur = time.perf_counter() - start
-print(&quot;爬取100次网页的时间为{:5f}s&quot;.format(dur))</code></pre><pre><code>
-
-</code></pre>]]></content>
-      <categories>
-        <category>编程</category>
-      </categories>
-      <tags>
-        <tag>爬虫</tag>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>hexo博客添加背景音乐</title>
     <url>/2020/06/16/hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90/</url>
     <content><![CDATA[<h1 id="如何给博客加上音乐"><a href="#如何给博客加上音乐" class="headerlink" title="如何给博客加上音乐"></a>如何给博客加上音乐</h1><h2 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h2><h3 id="博主以身试法推荐一种超easy的方法，也可以用这种方法来下载全网音乐"><a href="#博主以身试法推荐一种超easy的方法，也可以用这种方法来下载全网音乐" class="headerlink" title="博主以身试法推荐一种超easy的方法，也可以用这种方法来下载全网音乐"></a>博主以身试法推荐一种超easy的方法，也可以用这种方法来下载全网音乐</h3><ol>
@@ -249,6 +168,79 @@ print(&quot;爬取100次网页的时间为{:5f}s&quot;.format(dur))</code></pre>
       </tags>
   </entry>
   <entry>
+    <title>机器学习</title>
+    <url>/2020/06/11/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>机器学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Requests库入门</title>
+    <url>/2020/06/14/Requests%E5%BA%93%E5%85%A5%E9%97%A8/</url>
+    <content><![CDATA[<h1 id="Python-Requests库"><a href="#Python-Requests库" class="headerlink" title="Python-Requests库"></a>Python-Requests库</h1><h2 id="Requests库安装"><a href="#Requests库安装" class="headerlink" title="Requests库安装"></a>Requests库安装</h2><p>首先打开win命令行窗口，输入</p>
+<pre><code><figure class="highlight plain"><figcaption><span>install requests</span></figcaption><table><tr><td class="code"><pre><span class="line">pip install requests</span><br></pre></td></tr></table></figure></code></pre><p>对安装的ruquests进行测试，打开idea,输入</p>
+<figure class="highlight ruby"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;</span>&gt; import requests</span><br><span class="line"><span class="meta">&gt;&gt;</span>&gt; r = requests.get(<span class="string">"http://www.baidu.com"</span>)</span><br><span class="line"><span class="meta">&gt;&gt;</span>&gt; r.status_code</span><br></pre></td></tr></table></figure>
+
+<p>如果显示200，则表示连接成功，失败则重新进行上面的操作，或点击链接到官网下载<a href="http://www.python-requests.org" target="_blank" rel="noopener">This link</a> </p>
+<p>若显示200，继续输入</p>
+<figure class="highlight ruby"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;</span>&gt; r.encoding= <span class="string">'utf-8'</span><span class="comment">#改变网页编码</span></span><br><span class="line"><span class="meta">&gt;&gt;</span>&gt; r.text             <span class="comment">#打印内容</span></span><br></pre></td></tr></table></figure>
+
+<p>打印内容如下</p>
+<img src="http://i2.tiimg.com/721302/001e6e0a3ff2fafe.png" alt="Markdown" style="zoom: 33%;">
+
+<p>这就是我们从网页中爬取出来的代码，然后就可以从中得到我们想要的信息</p>
+<h3 id="附：Requests库的7个主要方法"><a href="#附：Requests库的7个主要方法" class="headerlink" title="附：Requests库的7个主要方法"></a>附：Requests库的7个主要方法</h3><p><img src="http://i2.tiimg.com/721302/91bb062aff25063e.png" alt="Markdown"></p>
+<h2 id="Requests库的主要方法"><a href="#Requests库的主要方法" class="headerlink" title="Requests库的主要方法"></a>Requests库的主要方法</h2><h3 id="get方法"><a href="#get方法" class="headerlink" title="get方法"></a>get方法</h3><p>(其实requests库的所有方法都可以归为get方法进行操作，而且这些方法都要在get到想爬取网页的基础上进行)</p>
+<p>调用方法</p>
+<figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">r = requests.<span class="builtin-name">get</span>(url，<span class="attribute">params</span>=None,**Kwargs)</span><br><span class="line">​```url：拟获取页面的url链接</span><br><span class="line">   params：url中的额外参数，字典或字节流格式，可选</span><br><span class="line">   **Kwargs：12个控制访问的参数,可选</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">使用方法：打开idea，输入</span><br></pre></td></tr></table></figure>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>import requests<br>r = requests.get(“<a href="http://www.baidu.com&quot;" target="_blank" rel="noopener">http://www.baidu.com&quot;</a>)<br>r.status_code<br> #若显示200则表示连接成功<br>type(r)<br> &lt;class ‘requests.models.Response’&gt;<br>r.headers<br> #(返回get请求页面的头部信息){‘Cache-Control’: ‘private, no-cache, no-store, proxy-revalidate, no-transform’, ‘Connection’: ‘keep-alive’, ‘Content-Encoding’: ‘gzip’, ‘Content-Type’: ‘text/html’, ‘Date’: ‘Mon, 15 Jun 2020 08:23:48 GMT’, ‘Last-Modified’: ‘Mon, 23 Jan 2017 13:28:24 GMT’, ‘Pragma’: ‘no-cache’, ‘Server’: ‘bfe/1.0.8.18’, ‘Set-Cookie’: ‘BDORZ=27315; max-age=86400; domain=.baidu.com; path=/‘, ‘Transfer-Encoding’: ‘chunked’}</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<figure class="highlight http"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="attribute">Response的属性</span></span><br><span class="line"><span class="attribute"></span></span><br><span class="line"><span class="attribute">![Markdown](http://i2.tiimg.com/721302/7ba19b27e376db3a.png)</span></span><br><span class="line"><span class="attribute"></span></span><br><span class="line"><span class="attribute"></span></span><br><span class="line"><span class="attribute"></span></span><br><span class="line"><span class="attribute">get方法一般使用步骤</span></span><br><span class="line"><span class="attribute"></span></span><br><span class="line"><span class="attribute">![Markdown](http://i2.tiimg.com/721302/437129653db994a5.png)</span></span><br><span class="line"><span class="attribute"></span></span><br><span class="line"><span class="attribute"></span></span><br><span class="line"><span class="attribute"></span></span><br><span class="line"><span class="attribute">如果在打印内容r.text的时候，发现都是乱码，该如何操作？</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>r.encoding<br> #返回该网页编码 ‘ISO-8859-1’<br>r.apparent_encoding<br> #’uft-8’<br>r.encoding = ‘uft-8’</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">这样就可以获取中文的字符，包括该网页(百度)的相关信息</span><br><span class="line"></span><br><span class="line">接下来分析一下Response的编码，如果r.encoding不能正确解码时，就采用r.apparent_encoding来进行解码操作，获取我们想要的信息.</span><br><span class="line"></span><br><span class="line">![<span class="string">Markdown</span>](<span class="link">http://i1.fuimg.com/721302/b71e6da6b12f7774.png</span>)</span><br><span class="line"></span><br><span class="line"><span class="section">##  理解Requests库的异常</span></span><br><span class="line"></span><br><span class="line">一共有6种常用的连接异常</span><br><span class="line"></span><br><span class="line">![<span class="string">Markdown</span>](<span class="link">http://i1.fuimg.com/721302/9415c2fbb8f76155.png</span>)</span><br><span class="line"></span><br><span class="line"><span class="section">##  爬取网页的通用代码框架</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>import requests<br>def getHTMLText(url):<br>       try:<br>           r = requests.get(url,timeout=30)<br>           r.raise_for_status()#如果状态不是200，引发HTTPError异常<br>           r.encoding = r.apparent_encoding<br>           return r.text<br>       except:<br>           return “产生异常”<br>if <em>name</em> == “<em>main</em>“:<br>       url = “<a href="http://www.baidu.com&quot;" target="_blank" rel="noopener">http://www.baidu.com&quot;</a><br>       print(getHTMLText(url))</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="section">###   HTTP协议Url格式</span></span><br><span class="line"></span><br><span class="line">![<span class="string">Markdown</span>](<span class="link">http://i2.tiimg.com/721302/17dcf547e367b301.png</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">HTTP URL的理解：</span><br><span class="line"></span><br><span class="line">URL是通过HTTP协议存取资源的Internet路径，一个URL对应一个数据资源。</span><br><span class="line"></span><br><span class="line"><span class="section">###  HTTP协议对资源的操作(即Requests库的6个主要函数所对应的功能)</span></span><br><span class="line"></span><br><span class="line">![<span class="string">Markdown</span>](<span class="link">http://i2.tiimg.com/721302/99ee6d5a565e0029.png</span>)</span><br><span class="line"></span><br><span class="line">如果我们想获取URL的资源可以使用 GET，HEAD方法，如果我们想对URL中的资源进行操作，更新，删除可以使用 PUT,POST,PATCH,DELECT.(例如在HTTP协议世界里，网络通道和服务器都是黑盒子，它能看到的只是URL链接)，</span><br><span class="line"></span><br><span class="line"><span class="section">###  小结</span></span><br><span class="line"></span><br><span class="line">1.requests库的7个常用方法</span><br><span class="line"></span><br><span class="line">2.爬取网页的通用代码框架</span><br><span class="line"></span><br><span class="line">3.异常处理</span><br><span class="line"></span><br><span class="line"><span class="section">###  小测试： “任意”找个url，测试一下成功爬取100次网页的时间</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>import requests<br>import time<br>def getHTMLText(url):<br>       try:<br>           r = requests.get(url, timeout=30)<br>           r.raise_for_status()<br>           r.encoding = r.apparent_ecoding<br>           return r.text<br>       except:<br>           return “产生异常”<br>if <strong>name</strong> == “<strong>main</strong>“:<br>       start = time.perf_counter()<br>       url = “<a href="https://www.sina.com&quot;" target="_blank" rel="noopener">https://www.sina.com&quot;</a></p>
+</blockquote>
+</blockquote>
+</blockquote>
+<pre><code>for i in range(100):
+    textstr = getHTMLText(url)
+dur = time.perf_counter() - start
+print(&quot;爬取100次网页的时间为{:5f}s&quot;.format(dur))</code></pre><pre><code>
+
+</code></pre>]]></content>
+      <categories>
+        <category>编程</category>
+      </categories>
+      <tags>
+        <tag>爬虫</tag>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>营养学</title>
     <url>/2020/06/15/%E8%90%A5%E5%85%BB%E5%AD%A6/</url>
     <content><![CDATA[<h1 id="营养学"><a href="#营养学" class="headerlink" title="营养学"></a>营养学</h1><h2 id="营养学基础"><a href="#营养学基础" class="headerlink" title="营养学基础"></a>营养学基础</h2><p>《黄帝内经·素问》“五谷为养、五果为助、五畜为益、五菜为充、气味合而服之、以补精益气。”<em>膳食平衡</em></p>
@@ -319,6 +311,14 @@ print(&quot;爬取100次网页的时间为{:5f}s&quot;.format(dur))</code></pre>
       </categories>
       <tags>
         <tag>运动健身</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python爬虫</title>
+    <url>/2020/06/12/python%E7%88%AC%E8%99%AB/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>爬虫</tag>
       </tags>
   </entry>
 </search>
