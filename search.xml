@@ -226,10 +226,18 @@ print(&quot;爬取100次网页的时间为{:5f}s&quot;.format(dur))</code></pre>
 </tbody></table>
 <h4 id="附-外链转换工具"><a href="#附-外链转换工具" class="headerlink" title="附:外链转换工具"></a>附:外链转换工具</h4><img src="http://i2.tiimg.com/721302/8d42ffd3d82cc61a.png" alt="Markdown" style="zoom:80%;">]]></content>
       <categories>
-        <category>下载全网音乐(付费均可)</category>
+        <category>全网音乐(转外链播放)</category>
       </categories>
       <tags>
         <tag>博客个性化</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python爬虫</title>
+    <url>/2020/06/12/python%E7%88%AC%E8%99%AB/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>爬虫</tag>
       </tags>
   </entry>
   <entry>
@@ -303,14 +311,6 @@ print(&quot;爬取100次网页的时间为{:5f}s&quot;.format(dur))</code></pre>
       </categories>
       <tags>
         <tag>运动健身</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>python爬虫</title>
-    <url>/2020/06/12/python%E7%88%AC%E8%99%AB/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>爬虫</tag>
       </tags>
   </entry>
   <entry>
