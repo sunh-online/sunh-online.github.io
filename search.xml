@@ -1,6 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>机器学习</title>
+    <url>/2020/06/11/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>机器学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python爬虫</title>
+    <url>/2020/06/12/python%E7%88%AC%E8%99%AB/</url>
+    <content><![CDATA[<h2 id="前奏"><a href="#前奏" class="headerlink" title="前奏"></a>前奏</h2><ol>
+<li>网络爬虫的尺寸</li>
+</ol>
+<ul>
+<li><p>小规模、数据量小、爬取速度不敏感——Requests库——爬取网页、玩转网页</p>
+</li>
+<li><p>中规模、数据规模较大、爬取速度敏感——Scrapy库——爬取网站、爬取系列网站 </p>
+</li>
+<li><p>大规模、搜索引擎、爬取速度关键——定制开发(搜索引擎)——爬取全网</p>
+</li>
+</ul>
+<p>注意：网络爬虫的法律风险：服务器上的数据有产权归属、获取数据后牟利将带来法律风险</p>
+<p>​            网络爬虫泄露隐私：</p>
+<p>限制网络爬虫：</p>
+<ul>
+<li>来源审查：判断User-Agent进行限制<ul>
+<li>检查来访HTTP协议头的User-Agent域，只响应浏览器或友好爬虫的访问</li>
+</ul>
+</li>
+<li>发布公告：Robots协议</li>
+</ul>
+<h4 id="Robots协议——网络爬虫排除标准"><a href="#Robots协议——网络爬虫排除标准" class="headerlink" title="Robots协议——网络爬虫排除标准"></a>Robots协议——网络爬虫排除标准</h4><p>网站告知爬虫哪些页面可以抓取，哪些不行</p>
+<p>形式：在网站根目录下的robots.txt</p>
+<ul>
+<li><a href="https://www.jd.com/robots.txt" target="_blank" rel="noopener">https://www.jd.com/robots.txt</a></li>
+</ul>
+<blockquote>
+<p>User-Agent：</p>
+<p>disa</p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>爬虫</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>营养学</title>
     <url>/2020/06/15/%E8%90%A5%E5%85%BB%E5%AD%A6/</url>
     <content><![CDATA[<h1 id="营养学"><a href="#营养学" class="headerlink" title="营养学"></a>营养学</h1><h2 id="营养学基础"><a href="#营养学基础" class="headerlink" title="营养学基础"></a>营养学基础</h2><p>《黄帝内经·素问》“五谷为养、五果为助、五畜为益、五菜为充、气味合而服之、以补精益气。”<em>膳食平衡</em></p>
@@ -105,6 +151,60 @@
 </ol>
 <p>机体每天从肠道吸收的甘油三酯约为50<del>100g，磷脂为4</del>8g，其中胆固醇约为300~450mg。</p>
 <p>脂肪在胃里的消化有限，主要消化场所是小肠。</p>
+<ol start="2">
+<li>脂肪的消化率 </li>
+</ol>
+<p>食物脂肪的消化率与其熔点密切相关。熔点高于50℃的脂肪较难消化，多见于动物脂肪</p>
+<h4 id="碳水化合物"><a href="#碳水化合物" class="headerlink" title="碳水化合物"></a>碳水化合物</h4><p>碳水化合物是最早被发现的营养素之一，广泛存在于动植物中，包括构成结构的骨架物质如膳食纤维、果胶、粘多糖和几丁质，以及为能力代谢提供原料的物质如淀粉、糊精和糖原等。</p>
+<ol>
+<li><p>两大特性—小肠消化和结肠发酵。</p>
+<p>小肠消化与血糖和功能有关，发酵与其肠道健康等功能作用有关。</p>
+<p>单糖直接在小肠消化吸收，双糖经酶水解后再吸收，多糖水解成葡萄糖后吸收。在小肠不能消化的部分，到结肠经细菌发酵后再吸收。</p>
+</li>
+</ol>
+<ol start="2">
+<li><p>分类</p>
+<blockquote>
+<ol>
+<li>单糖   葡萄糖、半乳糖、果糖</li>
+</ol>
+<p>​     双糖   蔗糖、乳糖、麦芽糖</p>
+<p>​     糖醇   山梨糖、甘露糖醇 (糖醇是单糖还原后的产物)</p>
+<ol start="2">
+<li><p>寡糖</p>
+<p>异麦芽低聚寡糖    麦芽糊精</p>
+<p>其他寡糖          棉子糖、水苏糖、低聚果糖</p>
+</li>
+<li><p>多糖</p>
+<p>淀粉               直链淀粉、支链淀粉、变性淀粉</p>
+<p>非淀粉多糖         纤维素、半纤维素、果胶、亲水胶质物</p>
+</li>
+</ol>
+</blockquote>
+</li>
+<li><p>益生元——是由不消化的碳水化合物派生出来的，是指不被人体消化系统消化和吸收，能够选择性地促进宿主肠道内原有的一种或几种有益细菌(益生菌)生长繁殖的物质，通过有益菌的繁殖增多，抑制有害细菌生长，从而达到调整肠道菌群，促进机体健康的目的。</p>
+</li>
+<li><p>食物血糖生成指数(GI)，是反映食物引起人体血糖升高程度的指标，是人体进食后机体血糖生成的应答状况。</p>
+<p>GI高的食物，进入胃肠后消化快、吸收完全、葡萄糖迅速进入血液</p>
+</li>
+</ol>
+<h4 id="能量"><a href="#能量" class="headerlink" title="能量"></a>能量</h4><p>人体每日能量消耗主要包括基础代谢、体力活动和食物热效应三方面。</p>
+<ul>
+<li>机体能量需要量与年龄、性别、生理状态、体重以及身体活动有关；</li>
+<li>人体能量摄入量与能量消耗量构成的能量平衡既受到外环境因素如摄食行为、温度变化、体力活动以及精神压力等因素的影响，也受到内环境因素如细胞因子、受体、激素以及神经-体液系统的的影响。</li>
+</ul>
+<p>营养学领域常使用的能量单位是卡和千卡，1kcal是指在一个标准大气压下，1kg纯水由15℃上升到16℃时所需要的能量。</p>
+<ul>
+<li>1kj=0.239kcal，1kcal=4.184kj</li>
+</ul>
+<p>1g 碳水化合物、脂肪和蛋白质在体内氧化时平均产生的能量分别为 4kcal，9kcal 和 4kcal，(吸收率分别为98%，95%，92%，且蛋白质分解产生的含氮化合物尿酸、肌酐等不能被分解利用，排除体外后还释放能量)</p>
+<ul>
+<li>基础代谢：人体经过10~12小时空腹 和良好的睡眠、清醒仰卧、恒温条件下，无任何身体活动和紧张的思维活动，全身肌肉放松时的能量消耗。(此能量消耗仅用于维持体温、呼吸、心脏搏动、血液循环及其他组织器官和细胞的基本生理功能的需要)</li>
+</ul>
+<p>基础代谢的影响因素：</p>
+<ul>
+<li>体型与体质：基础代谢与体表面积的大小呈正比，体表面积越大，向外环境散热越快，基础代谢能量消耗亦越高。机体组织其消耗的能量占基础代谢能量消耗的70%~80%，脂肪组织消耗的能量明显低于瘦体组织；因此，同等体重情况下，瘦高且肌肉发达者的基础代谢能量消耗高于矮胖者，寒冷、大量摄食以及体力过度消耗均可提高基础代谢水平；而禁食、饥饿或少食时，基础代谢能量消耗相应降低。</li>
+</ul>
 ]]></content>
       <categories>
         <category>生活</category>
@@ -114,19 +214,170 @@
       </tags>
   </entry>
   <entry>
-    <title>机器学习</title>
-    <url>/2020/06/11/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[]]></content>
+    <title>hexo博客添加背景音乐</title>
+    <url>/2020/06/16/hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90/</url>
+    <content><![CDATA[<h1 id="如何给博客加上音乐"><a href="#如何给博客加上音乐" class="headerlink" title="如何给博客加上音乐"></a>如何给博客加上音乐</h1><h2 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h2><h3 id="博主以身试法推荐一种超easy的方法，也可以用这种方法来下载全网音乐"><a href="#博主以身试法推荐一种超easy的方法，也可以用这种方法来下载全网音乐" class="headerlink" title="博主以身试法推荐一种超easy的方法，也可以用这种方法来下载全网音乐"></a>博主以身试法推荐一种超easy的方法，也可以用这种方法来下载全网音乐</h3><ol>
+<li>打开网易云音乐，找到想添加的音乐后，右键点击选择复制链接</li>
+</ol>
+<figure class="highlight dns"><table><tr><td class="code"><pre><span class="line">https://music.<span class="number">163</span>.com/song?id=<span class="number">428591384</span>&amp;userid=<span class="number">627778085</span></span><br><span class="line">#像这样一个字段，首先是</span><br><span class="line">·音乐来源-网易云音乐，</span><br><span class="line">·类别-歌曲，</span><br><span class="line">·歌曲id-<span class="number">428591384</span>，</span><br><span class="line">·和你自己的用户id</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>得到这个链接后，我们将这个链接中的信息进行加工</li>
+</ol>
+<p><code>http://link.hhtjim.com/163/428591384.mp3</code>(428591384是刚才链接中的歌曲id)</p>
+<ol start="3">
+<li><p>复制加工后的链接，粘贴到浏览器中打开即可</p>
+<img src="http://i2.tiimg.com/721302/4bd29b318b7a0e93.png" alt="Markdown" style="zoom: 33%;">
+
+</li>
+</ol>
+<p>然后点击下载，就可以了，所以的音乐都是可以通过这种方式下载的。</p>
+<ol start="4">
+<li><p>如果你想要往博客中添加背景音乐，也只需要打开主题配置文件_config.yml</p>
+<figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">添加如下代码即可···</span><br><span class="line"><span class="comment"># 默认音乐（随机播放）</span></span><br><span class="line">mp3: </span><br><span class="line">    - http:<span class="regexp">//</span>link.hhtjim.com<span class="regexp">/163/</span><span class="number">428591384</span>.mp3</span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ol>
+<h3 id="一般的方法"><a href="#一般的方法" class="headerlink" title="一般的方法"></a>一般的方法</h3><p><em>利用网易云提供的音乐 iframe –<code>歌曲外链播放器</code>标签。(但是有的歌曲没有iframe)</em></p>
+<p>1.首先打开网易云音乐，搜索你要添加的背景音乐</p>
+<img src="http://i2.tiimg.com/721302/cacb2b42c8d0ff7e.png" alt="Markdown" style="zoom:80%;">
+
+<p>2.然后点击生成外链播放器，进去下一个界面</p>
+<img src="http://i2.tiimg.com/721302/a9dfd9bd97902740.png" alt="Markdown" style="zoom: 67%;">
+
+<p>3.复制外链播放器的代码</p>
+<p>不同的博客主题可能对应的文件不同，例如<code>next主题-- /layout/_macro/sidebar.swig文件</code></p>
+<p> <code>yilia主题-- /_partial/left-col.ejs文件</code></p>
+<ul>
+<li>在对应的文件中添加刚才复制的链接</li>
+</ul>
+<p>然后重新生成、部署网页即可</p>
+<h2 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h2><p>安装 <code>hexo-tag-aplayer</code></p>
+<blockquote>
+<p>npm install –save hexo-tag-aplayer </p>
+</blockquote>
+<p>然后在你需要的地方引入下列字段即可(前后需要用大括号)</p>
+<figure class="highlight gcode"><table><tr><td class="code"><pre><span class="line"><span class="meta">%</span> aplayer <span class="string">"歌曲名称"</span> <span class="string">"作者"</span> <span class="string">"音乐_url"</span> <span class="string">"封面图片_url"</span> <span class="string">"autoplay"</span> <span class="meta">%</span></span><br></pre></td></tr></table></figure>
+
+
+
+<p><code>参数列表</code></p>
+<ul>
+<li>title : 曲目标题</li>
+<li>author: 曲目作者</li>
+<li>url: 音乐文件 URL 地址</li>
+<li>picture_url: (可选) 音乐对应的图片地址</li>
+<li>narrow: （可选）播放器袖珍风格</li>
+<li>autoplay: (可选) 自动播放，移动端浏览器暂时不支持此功能</li>
+<li>width:xxx: (可选) 播放器宽度 (默认: 100%)</li>
+<li>lrc:xxx: （可选）歌词文件 URL 地址</li>
+</ul>
+<h3 id="MetingJS"><a href="#MetingJS" class="headerlink" title="MetingJS"></a>MetingJS</h3><p>同方法二一样，这是 Github推荐的一种更快捷的方法: <code>MetingJS</code></p>
+<p>MetingJS 是基于Meting API 的 APlayer 衍生播放器，引入 MetingJS 后，播放器将支持对于 QQ音乐、网易云音乐、虾米、酷狗、百度等平台的音乐播放。</p>
+<p>如果想在这个插件中使用 MetingJS，需要在 <code>Hexo</code>配置文件<code>_config.yml</code> 中设置：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">aplayer:</span></span><br><span class="line">  <span class="attr">meting:</span> <span class="literal">true</span></span><br><span class="line">  <span class="string">**复制代码即可**</span></span><br></pre></td></tr></table></figure>
+
+<p>接着就可以通过 (% meting …%) 在文章中使用 MetingJS 播放器了 <code>由于显示问题，输入时需要将括号换成大括号</code></p>
+<figure class="highlight django"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="xml"><span class="comment">&lt;!-- 简单示例 (id, server, type)  --&gt;</span></span></span><br><span class="line"><span class="template-tag">&#123;% <span class="name">meting</span> "60198" "netease" "playlist" %&#125;</span></span><br><span class="line"><span class="xml"> </span></span><br><span class="line"><span class="xml"><span class="comment">&lt;!-- 进阶示例 --&gt;</span></span></span><br><span class="line"><span class="template-tag">&#123;% <span class="name">meting</span> "60198" "netease" "playlist" "autoplay" "mutex:false" "listmaxheight:340px" "preload:none" "theme:#ad7a86"%&#125;</span></span><br><span class="line"><span class="xml">复制代码</span></span><br></pre></td></tr></table></figure>
+
+<p>有关得选项表如下：</p>
+<table>
+<thead>
+<tr>
+<th align="left">选项</th>
+<th>默认值</th>
+<th align="left">描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">id</td>
+<td><strong>必须值</strong></td>
+<td align="left">歌曲 id / 播放列表 id / 相册 id / 搜索关键字</td>
+</tr>
+<tr>
+<td align="left">server</td>
+<td><strong>必须值</strong></td>
+<td align="left">音乐平台: <code>netease</code>, <code>tencent</code>, <code>kugou</code>, <code>xiami</code>, <code>baidu</code></td>
+</tr>
+<tr>
+<td align="left">type</td>
+<td><strong>必须值</strong></td>
+<td align="left"><code>song</code>, <code>playlist</code>, <code>album</code>, <code>search</code>, <code>artist</code></td>
+</tr>
+<tr>
+<td align="left">fixed</td>
+<td><code>false</code></td>
+<td align="left">开启固定模式</td>
+</tr>
+<tr>
+<td align="left">mini</td>
+<td><code>false</code></td>
+<td align="left">开启迷你模式</td>
+</tr>
+<tr>
+<td align="left">loop</td>
+<td><code>all</code></td>
+<td align="left">列表循环模式：<code>all</code>, <code>one</code>,<code>none</code></td>
+</tr>
+<tr>
+<td align="left">order</td>
+<td><code>list</code></td>
+<td align="left">列表播放模式： <code>list</code>, <code>random</code></td>
+</tr>
+<tr>
+<td align="left">volume</td>
+<td>0.7</td>
+<td align="left">播放器音量</td>
+</tr>
+<tr>
+<td align="left">lrctype</td>
+<td>0</td>
+<td align="left">歌词格式类型</td>
+</tr>
+<tr>
+<td align="left">listfolded</td>
+<td><code>false</code></td>
+<td align="left">指定音乐播放列表是否折叠</td>
+</tr>
+<tr>
+<td align="left">storagename</td>
+<td><code>metingjs</code></td>
+<td align="left">LocalStorage 中存储播放器设定的键名</td>
+</tr>
+<tr>
+<td align="left">autoplay</td>
+<td><code>true</code></td>
+<td align="left">自动播放，移动端浏览器暂时不支持此功能</td>
+</tr>
+<tr>
+<td align="left">mutex</td>
+<td><code>true</code></td>
+<td align="left">该选项开启时，如果同页面有其他 aplayer 播放，该播放器会暂停</td>
+</tr>
+<tr>
+<td align="left">listmaxheight</td>
+<td><code>340px</code></td>
+<td align="left">播放列表的最大长度</td>
+</tr>
+<tr>
+<td align="left">preload</td>
+<td><code>auto</code></td>
+<td align="left">音乐文件预载入模式，可选项： <code>none</code>, <code>metadata</code>, <code>auto</code></td>
+</tr>
+<tr>
+<td align="left">theme</td>
+<td><code>#ad7a86</code></td>
+<td align="left">播放器风格色彩设置</td>
+</tr>
+</tbody></table>
+<h4 id="附-外链转换工具"><a href="#附-外链转换工具" class="headerlink" title="附:外链转换工具"></a>附:外链转换工具</h4><img src="http://i2.tiimg.com/721302/8d42ffd3d82cc61a.png" alt="Markdown" style="zoom:80%;">]]></content>
+      <categories>
+        <category>全网音乐(转外链播放)</category>
+      </categories>
       <tags>
-        <tag>机器学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>python爬虫</title>
-    <url>/2020/06/12/python%E7%88%AC%E8%99%AB/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>爬虫</tag>
+        <tag>博客个性化</tag>
       </tags>
   </entry>
   <entry>
@@ -999,193 +1250,17 @@
 </blockquote>
 </blockquote>
 </blockquote>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="section">###   HTTP协议Url格式</span></span><br><span class="line"></span><br><span class="line">![<span class="string">Markdown</span>](<span class="link">http://i2.tiimg.com/721302/17dcf547e367b301.png</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">HTTP URL的理解：</span><br><span class="line"></span><br><span class="line">URL是通过HTTP协议存取资源的Internet路径，一个URL对应一个数据资源。</span><br><span class="line"></span><br><span class="line"><span class="section">###  HTTP协议对资源的操作(即Requests库的6个主要函数所对应的功能)</span></span><br><span class="line"></span><br><span class="line">![<span class="string">Markdown</span>](<span class="link">http://i2.tiimg.com/721302/99ee6d5a565e0029.png</span>)</span><br><span class="line"></span><br><span class="line">如果我们想获取URL的资源可以使用 GET，HEAD方法，如果我们想对URL中的资源进行操作，更新，删除可以使用 PUT,POST,PATCH,DELECT.(例如在HTTP协议世界里，网络通道和服务器都是黑盒子，它能看到的只是URL链接)，</span><br><span class="line"></span><br><span class="line"><span class="section">###  小结</span></span><br><span class="line"></span><br><span class="line">1.requests库的7个常用方法</span><br><span class="line"></span><br><span class="line">2.爬取网页的通用代码框架</span><br><span class="line"></span><br><span class="line">3.异常处理</span><br><span class="line"></span><br><span class="line"><span class="section">###  小测试： “任意”找个url，测试一下成功爬取100次网页的时间</span></span><br></pre></td></tr></table></figure>
-<blockquote>
-<blockquote>
-<blockquote>
-<p>import requests<br>import time<br>def getHTMLText(url):<br>       try:<br>           r = requests.get(url, timeout=30)<br>           r.raise_for_status()<br>           r.encoding = r.apparent_ecoding<br>           return r.text<br>       except:<br>           return “产生异常”<br>if <strong>name</strong> == “<strong>main</strong>“:<br>       start = time.perf_counter()<br>       url = “<a href="https://www.sina.com&quot;" target="_blank" rel="noopener">https://www.sina.com&quot;</a></p>
-</blockquote>
-</blockquote>
-</blockquote>
-<pre><code>for i in range(100):
-    textstr = getHTMLText(url)
-dur = time.perf_counter() - start
-print(&quot;爬取100次网页的时间为{:5f}s&quot;.format(dur))</code></pre><pre><code>
+<figure class="highlight livecodeserver"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">###   HTTP协议Url格式</span></span><br><span class="line"></span><br><span class="line">![Markdown](<span class="keyword">http</span>://i2.tiimg.com/<span class="number">721302</span>/<span class="number">17</span>dcf547e367b301.png)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">HTTP <span class="built_in">URL</span>的理解：</span><br><span class="line"></span><br><span class="line"><span class="built_in">URL</span>是通过HTTP协议存取资源的Internet路径，一个<span class="built_in">URL</span>对应一个数据资源。</span><br><span class="line"></span><br><span class="line"><span class="comment">###  HTTP协议对资源的操作(即Requests库的6个主要函数所对应的功能)</span></span><br><span class="line"></span><br><span class="line">![Markdown](<span class="keyword">http</span>://i2.tiimg.com/<span class="number">721302</span>/<span class="number">99</span>ee6d5a565e0029.png)</span><br><span class="line"></span><br><span class="line">如果我们想获取<span class="built_in">URL</span>的资源可以使用 GET，HEAD方法，如果我们想对<span class="built_in">URL</span>中的资源进行操作，更新，删除可以使用 PUT,POST,PATCH,DELECT.(例如在HTTP协议世界里，网络通道和服务器都是黑盒子，它能看到的只是<span class="built_in">URL</span>链接)，</span><br><span class="line"></span><br><span class="line"><span class="comment">###  小结</span></span><br><span class="line"></span><br><span class="line"><span class="number">1.</span>requests库的<span class="number">7</span>个常用方法</span><br><span class="line"></span><br><span class="line"><span class="number">2.</span>爬取网页的通用代码框架</span><br><span class="line"></span><br><span class="line"><span class="number">3.</span>异常处理</span><br><span class="line"></span><br><span class="line"><span class="comment">###  小测试： “任意”找个url，测试一下成功爬取100次网页的时间 </span></span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line">&gt;&gt;&gt;import requests</span><br><span class="line">&gt;&gt;&gt;import <span class="built_in">time</span></span><br><span class="line">&gt;&gt;&gt;def getHTMLText(url):</span><br><span class="line">       <span class="keyword">try</span>:</span><br><span class="line">           r = requests.<span class="built_in">get</span>(url, timeout=<span class="number">30</span>)</span><br><span class="line">           r.raise_for_status()</span><br><span class="line">           r.encoding = r.apparent_ecoding</span><br><span class="line">           <span class="literal">return</span> r.<span class="keyword">text</span></span><br><span class="line">       except:</span><br><span class="line">           <span class="literal">return</span> <span class="string">"产生异常"</span></span><br><span class="line">&gt;&gt;&gt;<span class="keyword">if</span> __name__ == <span class="string">"__main__"</span>:</span><br><span class="line">       <span class="built_in">start</span> = <span class="built_in">time</span>.perf_counter()</span><br><span class="line">       url = <span class="string">"https://www.sina.com"</span></span><br><span class="line">     </span><br><span class="line">       <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">100</span>):</span><br><span class="line">           textstr = getHTMLText(url)</span><br><span class="line">       dur = <span class="built_in">time</span>.perf_counter() - <span class="built_in">start</span></span><br><span class="line">       print(<span class="string">"爬取100次网页的时间为&#123;:5f&#125;s"</span>.<span class="built_in">format</span>(dur))</span><br></pre></td></tr></table></figure>
 
-</code></pre>]]></content>
+
+
+]]></content>
       <categories>
         <category>编程</category>
       </categories>
       <tags>
         <tag>爬虫</tag>
         <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo博客添加背景音乐</title>
-    <url>/2020/06/16/hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90/</url>
-    <content><![CDATA[<h1 id="如何给博客加上音乐"><a href="#如何给博客加上音乐" class="headerlink" title="如何给博客加上音乐"></a>如何给博客加上音乐</h1><h2 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h2><h3 id="博主以身试法推荐一种超easy的方法，也可以用这种方法来下载全网音乐"><a href="#博主以身试法推荐一种超easy的方法，也可以用这种方法来下载全网音乐" class="headerlink" title="博主以身试法推荐一种超easy的方法，也可以用这种方法来下载全网音乐"></a>博主以身试法推荐一种超easy的方法，也可以用这种方法来下载全网音乐</h3><ol>
-<li>打开网易云音乐，找到想添加的音乐后，右键点击选择复制链接</li>
-</ol>
-<figure class="highlight dns"><table><tr><td class="code"><pre><span class="line">https://music.<span class="number">163</span>.com/song?id=<span class="number">428591384</span>&amp;userid=<span class="number">627778085</span></span><br><span class="line">#像这样一个字段，首先是</span><br><span class="line">·音乐来源-网易云音乐，</span><br><span class="line">·类别-歌曲，</span><br><span class="line">·歌曲id-<span class="number">428591384</span>，</span><br><span class="line">·和你自己的用户id</span><br></pre></td></tr></table></figure>
-
-<ol start="2">
-<li>得到这个链接后，我们将这个链接中的信息进行加工</li>
-</ol>
-<p><code>http://link.hhtjim.com/163/428591384.mp3</code>(428591384是刚才链接中的歌曲id)</p>
-<ol start="3">
-<li><p>复制加工后的链接，粘贴到浏览器中打开即可</p>
-<img src="http://i2.tiimg.com/721302/4bd29b318b7a0e93.png" alt="Markdown" style="zoom: 33%;">
-
-</li>
-</ol>
-<p>然后点击下载，就可以了，所以的音乐都是可以通过这种方式下载的。</p>
-<ol start="4">
-<li><p>如果你想要往博客中添加背景音乐，也只需要打开主题配置文件_config.yml</p>
-<figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">添加如下代码即可···</span><br><span class="line"><span class="comment"># 默认音乐（随机播放）</span></span><br><span class="line">mp3: </span><br><span class="line">    - http:<span class="regexp">//</span>link.hhtjim.com<span class="regexp">/163/</span><span class="number">428591384</span>.mp3</span><br></pre></td></tr></table></figure>
-
-
-
-</li>
-</ol>
-<h3 id="一般的方法"><a href="#一般的方法" class="headerlink" title="一般的方法"></a>一般的方法</h3><p><em>利用网易云提供的音乐 iframe –<code>歌曲外链播放器</code>标签。(但是有的歌曲没有iframe)</em></p>
-<p>1.首先打开网易云音乐，搜索你要添加的背景音乐</p>
-<img src="http://i2.tiimg.com/721302/cacb2b42c8d0ff7e.png" alt="Markdown" style="zoom:80%;">
-
-<p>2.然后点击生成外链播放器，进去下一个界面</p>
-<img src="http://i2.tiimg.com/721302/a9dfd9bd97902740.png" alt="Markdown" style="zoom: 67%;">
-
-<p>3.复制外链播放器的代码</p>
-<p>不同的博客主题可能对应的文件不同，例如<code>next主题-- /layout/_macro/sidebar.swig文件</code></p>
-<p> <code>yilia主题-- /_partial/left-col.ejs文件</code></p>
-<ul>
-<li>在对应的文件中添加刚才复制的链接</li>
-</ul>
-<p>然后重新生成、部署网页即可</p>
-<h2 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h2><p>安装 <code>hexo-tag-aplayer</code></p>
-<blockquote>
-<p>npm install –save hexo-tag-aplayer </p>
-</blockquote>
-<p>然后在你需要的地方引入下列字段即可(前后需要用大括号)</p>
-<figure class="highlight gcode"><table><tr><td class="code"><pre><span class="line"><span class="meta">%</span> aplayer <span class="string">"歌曲名称"</span> <span class="string">"作者"</span> <span class="string">"音乐_url"</span> <span class="string">"封面图片_url"</span> <span class="string">"autoplay"</span> <span class="meta">%</span></span><br></pre></td></tr></table></figure>
-
-
-
-<p><code>参数列表</code></p>
-<ul>
-<li>title : 曲目标题</li>
-<li>author: 曲目作者</li>
-<li>url: 音乐文件 URL 地址</li>
-<li>picture_url: (可选) 音乐对应的图片地址</li>
-<li>narrow: （可选）播放器袖珍风格</li>
-<li>autoplay: (可选) 自动播放，移动端浏览器暂时不支持此功能</li>
-<li>width:xxx: (可选) 播放器宽度 (默认: 100%)</li>
-<li>lrc:xxx: （可选）歌词文件 URL 地址</li>
-</ul>
-<h3 id="MetingJS"><a href="#MetingJS" class="headerlink" title="MetingJS"></a>MetingJS</h3><p>同方法二一样，这是 Github推荐的一种更快捷的方法: <code>MetingJS</code></p>
-<p>MetingJS 是基于Meting API 的 APlayer 衍生播放器，引入 MetingJS 后，播放器将支持对于 QQ音乐、网易云音乐、虾米、酷狗、百度等平台的音乐播放。</p>
-<p>如果想在这个插件中使用 MetingJS，需要在 <code>Hexo</code>配置文件<code>_config.yml</code> 中设置：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">aplayer:</span></span><br><span class="line">  <span class="attr">meting:</span> <span class="literal">true</span></span><br><span class="line">  <span class="string">**复制代码即可**</span></span><br></pre></td></tr></table></figure>
-
-<p>接着就可以通过 (% meting …%) 在文章中使用 MetingJS 播放器了 <code>由于显示问题，输入时需要将括号换成大括号</code></p>
-<figure class="highlight django"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="xml"><span class="comment">&lt;!-- 简单示例 (id, server, type)  --&gt;</span></span></span><br><span class="line"><span class="template-tag">&#123;% <span class="name">meting</span> "60198" "netease" "playlist" %&#125;</span></span><br><span class="line"><span class="xml"> </span></span><br><span class="line"><span class="xml"><span class="comment">&lt;!-- 进阶示例 --&gt;</span></span></span><br><span class="line"><span class="template-tag">&#123;% <span class="name">meting</span> "60198" "netease" "playlist" "autoplay" "mutex:false" "listmaxheight:340px" "preload:none" "theme:#ad7a86"%&#125;</span></span><br><span class="line"><span class="xml">复制代码</span></span><br></pre></td></tr></table></figure>
-
-<p>有关得选项表如下：</p>
-<table>
-<thead>
-<tr>
-<th align="left">选项</th>
-<th>默认值</th>
-<th align="left">描述</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">id</td>
-<td><strong>必须值</strong></td>
-<td align="left">歌曲 id / 播放列表 id / 相册 id / 搜索关键字</td>
-</tr>
-<tr>
-<td align="left">server</td>
-<td><strong>必须值</strong></td>
-<td align="left">音乐平台: <code>netease</code>, <code>tencent</code>, <code>kugou</code>, <code>xiami</code>, <code>baidu</code></td>
-</tr>
-<tr>
-<td align="left">type</td>
-<td><strong>必须值</strong></td>
-<td align="left"><code>song</code>, <code>playlist</code>, <code>album</code>, <code>search</code>, <code>artist</code></td>
-</tr>
-<tr>
-<td align="left">fixed</td>
-<td><code>false</code></td>
-<td align="left">开启固定模式</td>
-</tr>
-<tr>
-<td align="left">mini</td>
-<td><code>false</code></td>
-<td align="left">开启迷你模式</td>
-</tr>
-<tr>
-<td align="left">loop</td>
-<td><code>all</code></td>
-<td align="left">列表循环模式：<code>all</code>, <code>one</code>,<code>none</code></td>
-</tr>
-<tr>
-<td align="left">order</td>
-<td><code>list</code></td>
-<td align="left">列表播放模式： <code>list</code>, <code>random</code></td>
-</tr>
-<tr>
-<td align="left">volume</td>
-<td>0.7</td>
-<td align="left">播放器音量</td>
-</tr>
-<tr>
-<td align="left">lrctype</td>
-<td>0</td>
-<td align="left">歌词格式类型</td>
-</tr>
-<tr>
-<td align="left">listfolded</td>
-<td><code>false</code></td>
-<td align="left">指定音乐播放列表是否折叠</td>
-</tr>
-<tr>
-<td align="left">storagename</td>
-<td><code>metingjs</code></td>
-<td align="left">LocalStorage 中存储播放器设定的键名</td>
-</tr>
-<tr>
-<td align="left">autoplay</td>
-<td><code>true</code></td>
-<td align="left">自动播放，移动端浏览器暂时不支持此功能</td>
-</tr>
-<tr>
-<td align="left">mutex</td>
-<td><code>true</code></td>
-<td align="left">该选项开启时，如果同页面有其他 aplayer 播放，该播放器会暂停</td>
-</tr>
-<tr>
-<td align="left">listmaxheight</td>
-<td><code>340px</code></td>
-<td align="left">播放列表的最大长度</td>
-</tr>
-<tr>
-<td align="left">preload</td>
-<td><code>auto</code></td>
-<td align="left">音乐文件预载入模式，可选项： <code>none</code>, <code>metadata</code>, <code>auto</code></td>
-</tr>
-<tr>
-<td align="left">theme</td>
-<td><code>#ad7a86</code></td>
-<td align="left">播放器风格色彩设置</td>
-</tr>
-</tbody></table>
-<h4 id="附-外链转换工具"><a href="#附-外链转换工具" class="headerlink" title="附:外链转换工具"></a>附:外链转换工具</h4><img src="http://i2.tiimg.com/721302/8d42ffd3d82cc61a.png" alt="Markdown" style="zoom:80%;">]]></content>
-      <categories>
-        <category>全网音乐(转外链播放)</category>
-      </categories>
-      <tags>
-        <tag>博客个性化</tag>
       </tags>
   </entry>
 </search>
